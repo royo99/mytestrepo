@@ -4,6 +4,7 @@ pipeline {
         stage ("Build dockerfile") {
             steps{
                 sh "ls"
+                sh "echo hiiiiiii"
             }
         }
     }
