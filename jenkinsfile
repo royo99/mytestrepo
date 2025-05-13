@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage ("Build dockerfile") {
             steps{
-                sh "ls"
-                sh "echo hiiiiiii"
+                sh "docker build -t MyFlaskApp ."
             }
         }
     }
