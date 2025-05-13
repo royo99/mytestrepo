@@ -19,8 +19,7 @@ pipeline {
             steps {
                 echo 'Deploying website...'
                 sh './deploy.sh'
-                sh "python3 -m http.server 8000 --directory /tmp/web-deploy"
-
+                // sh "python3 -m http.server 8000 --directory /tmp/web-deploy"
             }
         }
     }
