@@ -9,7 +9,7 @@ pipeline {
 
         stage ("Push dockerfile") {
             steps{
-                sh "docker push royo99/flaskapp:latest"
+                sh "docker push royo99/flaskapp"
             }
         }
     }
